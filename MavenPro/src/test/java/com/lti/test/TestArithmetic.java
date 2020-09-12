@@ -19,4 +19,14 @@ public class TestArithmetic {
 	{
 		assertEquals(10, arth.sum(6, 4));
 	}
+	@Test
+	public void testDiff()
+	{
+		assertEquals(2,arth.sub(6,4));
+	}
+	@Test
+	public void testMax()
+	{
+		assertEquals(6,arth.max(6,4));
+	}
 }
