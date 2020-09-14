@@ -34,4 +34,14 @@ public class TestArithmetic {
 	{
 		assertEquals(4,arth.min(6,4));
 	}
+	@Test
+	public void testMax2()
+	{
+		assertEquals(12,arth.max(12,4));
+	}
+	@Test
+	public void testMin2()
+	{
+		assertEquals(4,arth.min(8,4));
+	}
 }
