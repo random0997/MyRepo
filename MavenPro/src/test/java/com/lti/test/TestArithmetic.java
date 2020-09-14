@@ -29,4 +29,9 @@ public class TestArithmetic {
 	{
 		assertEquals(6,arth.max(6,4));
 	}
+	@Test
+	public void testMin()
+	{
+		assertEquals(4,arth.min(6,4));
+	}
 }
